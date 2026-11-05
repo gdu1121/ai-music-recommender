@@ -15,7 +15,7 @@ Run [download_music4all_onion.ipynb](download_music4all_onion.ipynb). It automat
 
 - `userid_trackid_count`, `userid_trackid_timestamp`
 - `id_musicnn`, `id_mfcc_stats`, `id_essentia`
-- `id_genres_tf-idf`, `id_tags_tf-idf`
+- `id_genres_tf-idf`, `id_tags_dict`
 
 It also downloads the dataset's own `README.md`, which describes every feature file.
 
