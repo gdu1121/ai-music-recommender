@@ -1,0 +1,57 @@
+General Notes for all teams:
+
+ 
+
+Note: Milestone 2 is being moved to November 2nd to allow for more progress on the projects. It will be  a 8 minute update presentation of your project during class. Do get started on your projects!
+
+ 
+
+    Reminder: final project should produce a defensible experimental finding, not merely a working application. Each team should be able to articulate what its proposed method contributes, which baseline isolates that contribution, and what evidence would demonstrate that the method is useful.
+    Also define the research hypothesis (one or two sentences) precisely.
+    Let me know if you need compute access  (google cloud/GPU) ASAP.
+    Go to project google page: https://docs.google.com/spreadsheets/d/1XFlwpcvKRVf3JMqz2BuM4UrAvN2ytSC4xdOUkSiju84/edit?gid=0#gid=0
+
+If you haven't do so already:
+
+        Fill in the AI Topics (column F).
+        Github link (Column G):
+        Add a 100 word abstract of your project to the team google doc (Column J).
+        Upload your approved proposal or revised proposal to Column K.
+        If you don't already have it, timeline in proposal should be broken up by weeks – each week starting after the midterm  exam should involve completion of a significant subtask. Add this  (Monday day of each week and task to complete) to Column L.
+
+    As a reminder, the work load should be equivalent to  30% of total grade for each student.  The emphasis is on the  contribution to the AI aspects of the work for each student rather than UI/interface/application design and implementation although that will be given credit, even extra credit if outstanding.
+    I suggest working in an incremental fashion where you have results you can demonstrate at the end of each week. Meaning have a working end-to-end version of the project the end of every week.
+    You will have to provide sufficient argument in your final report for the choice of each of the AI approach(es) applied to the problem.
+    Your final report should explore deeply the strengths and weaknesses of each of the algorithms as it relates to your project results.
+    Resources:
+        Top Tier AI conferences if looking for research papers with comparative evaluative baselines:
+            AAAI https://aaai.org/Conferences/conferences.php
+            IJCAI https://www.ijcai.org/
+            Innovative Applications of Artificial Intelligence Conference (IAAI)
+        Student research tools:
+            consensus AI  https://consensus.app › search
+            Using Claude code: Maven.com
+
+ 
+
+Project specific comments are below:
+
+    Research question of "Does combining collaborative filtering, audio-based features, and sequential listening behavior improve song recommendations compared with using each recommendation method individually?" is interesting and experimental setup is described.
+    Topics: Collaborative filtering, CNN, RNN/LSTM, RL is proposed and is a potential path but scope might be too big.
+        proposed combining multiple datasets with different identifiers, features, and audio availability may make the scope too big. Suggest the team select one primary dataset and establish popularity-based and collaborative-filtering baselines before introducing more complex models.
+        Consider the comments of industry visitors.
+        I suggest a reproducible hybrid recommender  that uses CNN or RNN/LSTM with a clearly defined feedback-learning experiment may be more viable.
+        Also you might want to look at RLHF (Reinforcement Learning from Human Feedback), a core component of LLM post-training if explicit user preferences can be collected as pairwise song rankings and used to train a reward or preference model that improves recommendations.
+    Will connect you all to Prof. Thais on evaluation and benchmark questions.
+    Evaluation: suggest  controlled ablation experiments should measure the incremental benefit of audio features, listening sequences, and feedback-driven adaptation.
+
+ 
+
+For  Milestone 2, November 5 presentation:
+
+    Clear differences between the related lit and the proposed work should be presented.
+    Include the architecture diagram.
+    A slide on why the chosen algorithms are appropriate for this problem.
+    Demo a simple end-end-version of the architecture.
+    Have a first end-to-end implementation with A* and perhaps initial CSP complete for demo.
+    Update metrics as stated above.
